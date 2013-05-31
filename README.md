@@ -4,7 +4,8 @@ MoRiBS-PIMC
 Molecular Rotor in Bosonic Solvents, a Path-Integral Monte Carlo program
 
   MoRiBS-PIMC: Molecular Rotators in Bosonic Solvents with Path-Integral Monte Carlo
-	-----------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------
 
 	* Disclaimer: We disclaim any and all warranties concerning the enclosed program. *
 
