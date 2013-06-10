@@ -115,7 +115,15 @@ The potentials should be arranged following
 		loop over polar angular grids
 			loop over azimuthal angular grids
 
-Two examples of MF_8He_0.37K_512_128 and N2O_5pH2_512_128 are prepared. They are for one Methyl Formate molrecule rotating in a cluster with 8 He's and one N2O molecule rotating in a cluster with 5 pH2's. One may compile the code, move the resultant executable "pimc" to examples/MF_8He_0.37K_512_128 or examples/N2O_5pH2_512_128, and try running the respective simulations. One may also look at the files in those two example directories to have a sense of how many files are needed and their formats.
+Six examples of input are provided in the examples/ directory. They are:
+	1. H2Odimer_0.74K_4096_2048: H2O dimer at T = 0.74 K with 4096 translational and 2048 rotational beads;
+	2. MF_1He_0.37K_512_128: Methyl Format and He at T = 0.37 K with 512 translational and 128 rotational beads;
+	3. MF_8He_0.37K_512_128: Similar to the previous example but with 8 He atoms;
+	4. N2O_5pH2_0.5K_512_128: N2O with 5 para-H2 at T = 0.5 K with 512 translational and 128 rotational beads;
+	5. SO2_1pH2_0.37K_1024_256: SO2 with 1 para-H2 at T = 0.37 K with 1024 translational and 256 rotational beads;
+	6. SO2_4pH2_0.37K_1024_256: Similar to the previous example but with 4 para-H2 molecules.
+
+One may compile the code, move the resultant executable "pimc" to examples/MF_8He_0.37K_512_128 or examples/N2O_5pH2_512_128, and try running the respective simulations. One may also look at the files in those two example directories to have a sense of how many files are needed and their formats.
 
 					************************
 					**   OUTPUT SUMMARY   **

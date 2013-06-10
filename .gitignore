@@ -1,0 +1,4 @@
+#ignore all object files
+*.o
+#ignore executable
+pimc
