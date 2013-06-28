@@ -4,7 +4,10 @@ options= -Ofast -march=native -fopenmp
 
 CFLAGS =-I./sprng/include -I/usr/local/include -DMOVECENTROIDTEST 
 
+#Below is the LDFLAGS Toby Zeng use on nlogn
 LDFLAGS=-L/home/pnroy/Dev/lib64/ -lm -L./sprng/lib -llcg -L/home/pnroy/Dev/lib64/ -lgfortran  -L/opt/intel/mkl/lib/intel64 -lmkl_intel_lp64 -lmkl_sequential -lmkl_core
+#below is the LDFLAGS with minimum flags
+#LDFLAGS= -lm -L./sprng/lib -llcg -lgfortran
  
 #-------------------------------------------------------------------------
 #  Compilers
